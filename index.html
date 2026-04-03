@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya raj — Projects & Experiments</title>
+  <meta name="description"
+    content="Projects and experiments by Aditya raj — AI/DS @ IIT Jodhpur '29. SIH Finalist. Python, LLM, Machine Learning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">adityaraj<span class="accent">IITj</span></a>
+      <div class="nav-links">
+        <a href="#about" id="nav-about">About</a>
+        <a href="#projects" id="nav-projects">Projects</a>
+        <a href="#skills" id="nav-skills">Skills</a>
+        <a href="#contact" id="nav-contact">Contact</a>
+        <a href="https://github.com/adityarajIITj" target="_blank" class="nav-cta" id="nav-github">GitHub ↗</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="https://github.com/adityarajIITj" target="_blank">GitHub ↗</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge" id="hero-badge">
+        <span class="badge-dot"></span>
+        SIH Finalist · AI/DS @ IIT Jodhpur '29
+      </div>
+      <h1 class="hero-title" id="hero-title">
+        Projects &<br /><span class="gradient-text">Experiments</span>
+      </h1>
+      <p class="hero-sub" id="hero-sub">
+        Building at the intersection of <strong>AI</strong>, <strong>Machine Learning</strong>, and<br /> practical
+        software engineering.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary" id="hero-btn-projects">View Projects</a>
+        <a href="https://github.com/adityarajIITj" target="_blank" class="btn btn-ghost" id="hero-btn-github">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.929.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .322.216.694.825.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+          </svg>
+          GitHub Profile
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">8</span>
+          <span class="stat-label">Repositories</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Major Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">AI/DS</span>
+          <span class="stat-label">Specialization</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card" id="about-card-main">
+          <div class="about-icon">🎓</div>
+          <h3>Education</h3>
+          <p>AI &amp; Data Science student at <strong>IIT Jodhpur</strong> (Batch of 2029). Cracked JEE 4 times —
+            persistence is a core trait.</p>
+        </div>
+        <div class="about-card" id="about-card-focus">
+          <div class="about-icon">🤖</div>
+          <h3>Current Focus</h3>
+          <p>Building <strong>health-based AI systems</strong>. Exploring Touch Designer, advanced Python, and
+            cutting-edge Machine Learning.</p>
+        </div>
+        <div class="about-card" id="about-card-expertise">
+          <div class="about-icon">💡</div>
+          <h3>Expertise</h3>
+          <p>Ask me anything about <strong>ML, Agentic IDEs, LLMs</strong>, and full-stack deployments. I prefer solo
+            builds — focus &amp; speed.</p>
+        </div>
+        <div class="about-card about-card-highlight" id="about-card-sih">
+          <div class="about-icon">🏆</div>
+          <h3>SIH Finalist</h3>
+          <p>Selected as a <strong>Smart India Hackathon Finalist</strong> — recognized for building innovative,
+            real-world solutions under pressure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-dark" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Projects</span>
+        <h2 class="section-title">What I've Built</h2>
+        <p class="section-desc">All projects are open source and available on GitHub. Click any card to explore the
+          code.</p>
+      </div>
+
+      <!-- FEATURED -->
+      <div class="projects-featured">
+
+        <!-- FinFlow -->
+        <div class="project-card project-featured" id="project-finflow">
+          <div class="project-card-inner">
+            <div class="project-top">
+              <div class="project-icon-wrap" style="background: linear-gradient(135deg,#635bff22,#635bff44);">
+                <span class="project-icon">💸</span>
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-featured">Featured</span>
+                <span class="badge badge-lang">HTML · JS · CSS</span>
+              </div>
+            </div>
+            <h3 class="project-title">FinFlow</h3>
+            <p class="project-tagline">Personal Finance Dashboard with AI Advisor</p>
+            <p class="project-desc">A full-featured finance tracker with multi-user auth, Chart.js visualizations, CSV
+              bank-statement import, and a <strong>Gemini 1.5 Flash</strong> powered AI advisor. All data stays in
+              localStorage — zero backend.</p>
+            <ul class="project-highlights">
+              <li>🤖 Gemini AI financial analysis</li>
+              <li>📊 Interactive Charts (Chart.js 4)</li>
+              <li>📥 CSV import from any bank</li>
+              <li>🔒 Privacy-first, no backend</li>
+            </ul>
+            <div class="project-stack">
+              <span>HTML5</span><span>Vanilla JS</span><span>Chart.js</span><span>Gemini API</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/adityarajIITj/finflow" target="_blank" class="btn btn-sm btn-primary"
+                id="finflow-github">View on GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hand Tracker -->
+        <div class="project-card project-featured" id="project-handtracker">
+          <div class="project-card-inner">
+            <div class="project-top">
+              <div class="project-icon-wrap" style="background: linear-gradient(135deg,#00d4aa22,#00d4aa44);">
+                <span class="project-icon">✋</span>
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-featured">Featured</span>
+                <span class="badge badge-lang">JS · MediaPipe</span>
+              </div>
+            </div>
+            <h3 class="project-title">Hand Tracker</h3>
+            <p class="project-tagline">Real-Time Hand Tracking Interactive System</p>
+            <p class="project-desc">Uses <strong>MediaPipe Hands</strong> to detect 21 finger landmarks from webcam
+              input. Pinch gestures attract particles; open palm repels them — a physics-based interactive particle
+              simulation in-browser.</p>
+            <ul class="project-highlights">
+              <li>🔍 21-point landmark detection</li>
+              <li>🌐 Physics particle simulation</li>
+              <li>⚡ HTML5 Canvas rendering</li>
+              <li>🤏 Gesture-based interaction</li>
+            </ul>
+            <div class="project-stack">
+              <span>JavaScript</span><span>MediaPipe</span><span>Canvas API</span><span>CSS3</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/adityarajIITj/hand-tracker-basic" target="_blank"
+                class="btn btn-sm btn-primary" id="handtracker-github">View on GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- SECONDARY GRID -->
+      <div class="projects-grid">
+
+        <!-- File Sorter v2 -->
+        <div class="project-card" id="project-filesorterv2">
+          <div class="project-card-inner">
+            <div class="project-top">
+              <div class="project-icon-wrap" style="background: linear-gradient(135deg,#ff6b6b22,#ff6b6b44);">
+                <span class="project-icon">🗂️</span>
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-lang">Python · GUI</span>
+              </div>
+            </div>
+            <h3 class="project-title">Smart File Organizer Pro</h3>
+            <p class="project-desc">Desktop app that auto-categorizes files (images, videos, docs, code, archives) with
+              duplicate detection via hashing. Comes with a smooth CustomTkinter GUI and a Windows executable.</p>
+            <div class="project-stack">
+              <span>Python</span><span>CustomTkinter</span><span>PyInstaller</span><span>Hashlib</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/adityarajIITj/file-sorter-v2" target="_blank" class="btn btn-sm btn-outline"
+                id="filesorterv2-github">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- File Sorter v1 -->
+        <div class="project-card" id="project-filesorterv1">
+          <div class="project-card-inner">
+            <div class="project-top">
+              <div class="project-icon-wrap" style="background: linear-gradient(135deg,#ffc66d22,#ffc66d44);">
+                <span class="project-icon">📁</span>
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-lang">Python</span>
+              </div>
+            </div>
+            <h3 class="project-title">File Sorter v1</h3>
+            <p class="project-desc">The original version of the file sorting tool — a clean Python script that
+              categorizes files in generic folders by extension type.</p>
+            <div class="project-stack">
+              <span>Python</span><span>OS module</span><span>Shutil</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/adityarajIITj/file-sorter-v1" target="_blank" class="btn btn-sm btn-outline"
+                id="filesorterv1-github">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Alphanumeric Sorter -->
+        <div class="project-card" id="project-alphasort">
+          <div class="project-card-inner">
+            <div class="project-top">
+              <div class="project-icon-wrap" style="background: linear-gradient(135deg,#a78bfa22,#a78bfa44);">
+                <span class="project-icon">🔢</span>
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-lang">Python</span>
+              </div>
+            </div>
+            <h3 class="project-title">Alphanumeric Priority Sorter</h3>
+            <p class="project-desc">First project — a Python utility to arrange alphanumeric series by priority. Clean
+              logic for sorting mixed-format identifiers.</p>
+            <div class="project-stack">
+              <span>Python</span><span>Algorithms</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/adityarajIITj/alphanumeric-priority-sorter" target="_blank"
+                class="btn btn-sm btn-outline" id="alphasort-github">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hello World -->
+        <div class="project-card" id="project-helloworld">
+          <div class="project-card-inner">
+            <div class="project-top">
+              <div class="project-icon-wrap" style="background: linear-gradient(135deg,#34d39922,#34d39944);">
+                <span class="project-icon">👋</span>
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-lang">Starter</span>
+              </div>
+            </div>
+            <h3 class="project-title">Hello World</h3>
+            <p class="project-desc">Where every developer begins — the first push, the first commit. Every journey
+              starts with a single step.</p>
+            <div class="project-stack">
+              <span>Origin</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/adityarajIITj/hello-world" target="_blank" class="btn btn-sm btn-outline"
+                id="helloworld-github">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Skills</span>
+        <h2 class="section-title">Tech Stack</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group" id="skill-group-lang">
+          <h3 class="skill-group-title">
+            <span class="skill-group-icon">⚡</span> Languages
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-primary">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+          </div>
+        </div>
+        <div class="skill-group" id="skill-group-ai">
+          <h3 class="skill-group-title">
+            <span class="skill-group-icon">🤖</span> AI / ML
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-primary">Machine Learning</span>
+            <span class="skill-tag skill-primary">LLMs</span>
+            <span class="skill-tag">MediaPipe</span>
+            <span class="skill-tag">Gemini API</span>
+            <span class="skill-tag">Agentic IDEs</span>
+          </div>
+        </div>
+        <div class="skill-group" id="skill-group-tools">
+          <h3 class="skill-group-title">
+            <span class="skill-group-icon">🛠️</span> Tools & Frameworks
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Touch Designer</span>
+            <span class="skill-tag">CustomTkinter</span>
+            <span class="skill-tag">Chart.js</span>
+            <span class="skill-tag">PyInstaller</span>
+            <span class="skill-tag">Canvas API</span>
+          </div>
+        </div>
+        <div class="skill-group" id="skill-group-concepts">
+          <h3 class="skill-group-title">
+            <span class="skill-group-icon">💡</span> Concepts
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Full-Stack Deployment</span>
+            <span class="skill-tag">Computer Vision</span>
+            <span class="skill-tag">Gesture Recognition</span>
+            <span class="skill-tag">File Systems</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-desc">Open to discussions about ML, AI systems, and interesting technical problems.</p>
+      </div>
+      <div class="contact-grid">
+        <a href="https://github.com/adityarajIITj" target="_blank" class="contact-card" id="contact-github">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.929.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .322.216.694.825.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+            </svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">@adityarajIITj</span>
+          </div>
+          <span class="contact-arrow">↗</span>
+        </a>
+        <div class="contact-card contact-card-note" id="contact-note">
+          <div class="contact-icon">💬</div>
+          <div class="contact-info">
+            <span class="contact-label">Open For</span>
+            <span class="contact-value">Technical discussions on ML, LLMs & AI systems</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-name">Aditya raj · adityarajIITj</span>
+        <span class="footer-note">AI/DS @ IIT Jodhpur '29 · SIH Finalist</span>
+        <a href="https://github.com/adityarajIITj" target="_blank" class="footer-link"
+          id="footer-github">github.com/adityarajIITj ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
